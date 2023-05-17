@@ -53,5 +53,3 @@ def video(client, message):
             client.send_video(chat_id=message.chat.id, video=f"{title}.{info['ext']}")
         except Exception as e:
             client.send_message(chat_id=message.chat.id, text=f"An error occurred: {str(e)}")
-
-app.run()
