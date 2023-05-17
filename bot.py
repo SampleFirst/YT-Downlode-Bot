@@ -1,3 +1,4 @@
+import os
 from pyrogram import Client, filters
 from yt_dl import song, video
 from config import API_ID, API_HASH, BOT_TOKEN
