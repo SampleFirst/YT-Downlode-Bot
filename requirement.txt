@@ -2,9 +2,7 @@ python-telegram-bot
 youtube-dl
 pyrogram
 tgcrypto
-youtube-search-python
 youtube-search
-yt-dlp
 Flask==2.2.2
 gunicorn==20.1.0
 aiohttp==3.8.4
